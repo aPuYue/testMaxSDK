@@ -13,7 +13,7 @@ class ViewController: UIViewController, MAAdViewAdDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        createBannerAd()
+        createMRECAd()
     }
 
     @IBAction func show(_ sender: Any) {
@@ -27,20 +27,21 @@ class ViewController: UIViewController, MAAdViewAdDelegate {
     
     var adView: MAAdView!
 
-        func createBannerAd()
+        func createMRECAd()
         {
-            adView = MAAdView(adUnitIdentifier: "YOUR_AD_UNIT_ID")
+            adView = MAAdView(adUnitIdentifier: "YOUR_AD_UNIT_ID", adFormat: MAAdFormat.mrec)
             adView.delegate = self
         
-            // Banner height on iPhone and iPad is 50 and 90, respectively
-            let height: CGFloat = (UIDevice.current.userInterfaceIdiom == .pad) ? 90 : 50
+            // MREC width and height are 300 and 250 respectively, on iPhone and iPad
+            let height: CGFloat = 250
+            let width: CGFloat = 300
         
-            // Stretch to the width of the screen for banners to be fully functional
-            let width: CGFloat = UIScreen.main.bounds.width
+            adView.frame = CGRect(x: 50, y: 50, width: width, height: height)
         
-            adView.frame = CGRect(x: 0, y: 100, width: width, height: height)
+            // Center the MREC
+            adView.center.x = view.center.x
         
-            // Set background or background color for banner ads to be fully functional
+            // Set background or background color for MREC ads to be fully functional
             adView.backgroundColor = .orange
         
             view.addSubview(adView)
