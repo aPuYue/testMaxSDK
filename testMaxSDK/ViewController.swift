@@ -8,71 +8,67 @@
 import UIKit
 import AppLovinSDK
 
-class ViewController: UIViewController, MAAdDelegate {
+class ViewController: UIViewController, MAAdViewAdDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        createInterstitialAd()
+        createBannerAd()
     }
 
-    @IBAction func click(_ sender: Any) {
-        if interstitialAd.isReady
+    @IBAction func show(_ sender: Any) {
+        adView.isHidden = false
+        adView.startAutoRefresh()
+    }
+    @IBAction func hide(_ sender: Any) {
+        adView.isHidden = true
+        adView.stopAutoRefresh()
+    }
+    
+    var adView: MAAdView!
+
+        func createBannerAd()
         {
-            interstitialAd.show()
+            adView = MAAdView(adUnitIdentifier: "YOUR_AD_UNIT_ID")
+            adView.delegate = self
+        
+            // Banner height on iPhone and iPad is 50 and 90, respectively
+            let height: CGFloat = (UIDevice.current.userInterfaceIdiom == .pad) ? 90 : 50
+        
+            // Stretch to the width of the screen for banners to be fully functional
+            let width: CGFloat = UIScreen.main.bounds.width
+        
+            adView.frame = CGRect(x: 0, y: 100, width: width, height: height)
+        
+            // Set background or background color for banner ads to be fully functional
+            adView.backgroundColor = .orange
+        
+            view.addSubview(adView)
+        
+            // Load the first ad
+            adView.loadAd()
         }
-    }
-    
-    var interstitialAd: MAInterstitialAd!
-    var retryAttempt = 0.0
-    
-    func createInterstitialAd()
-    {
-        interstitialAd = MAInterstitialAd(adUnitIdentifier: "YOUR_AD_UNIT_ID")//TODO
-        interstitialAd.delegate = self
-        
-        // Load the first ad
-        interstitialAd.load()
-    }
-    
-    // MARK: MAAdDelegate Protocol
-    
-    func didLoad(_ ad: MAAd)
-    {
-        // Interstitial ad is ready to be shown. 'interstitialAd.isReady' will now return 'true'
-        
-        // Reset retry attempt
-        retryAttempt = 0
-    }
-    
-    func didFailToLoadAd(forAdUnitIdentifier adUnitIdentifier: String, withError error: MAError)
-    {
-        // Interstitial ad failed to load
-        // We recommend retrying with exponentially higher delays up to a maximum delay (in this case 64 seconds)
-        
-        retryAttempt += 1
-        let delaySec = pow(2.0, min(6.0, retryAttempt))
-        
-        DispatchQueue.main.asyncAfter(deadline: .now() + delaySec) {
-            self.interstitialAd.load()
-        }
-    }
-    
-    func didDisplay(_ ad: MAAd) {}
-    
-    func didClick(_ ad: MAAd) {}
-    
-    func didHide(_ ad: MAAd)
-    {
-        // Interstitial ad is hidden. Pre-load the next ad
-        interstitialAd.load()
-    }
-    
-    func didFail(toDisplay ad: MAAd, withError error: MAError)
-    {
-        // Interstitial ad failed to display. We recommend loading the next ad
-        interstitialAd.load()
-    }
+
+        // MARK: MAAdDelegate Protocol
+
+        func didLoad(_ ad: MAAd) {}
+
+        func didFailToLoadAd(forAdUnitIdentifier adUnitIdentifier: String, withError error: MAError) {}
+
+        func didClick(_ ad: MAAd) {}
+
+        func didFail(toDisplay ad: MAAd, withError error: MAError) {}
+
+        // MARK: MAAdViewAdDelegate Protocol
+
+        func didExpand(_ ad: MAAd) {}
+
+        func didCollapse(_ ad: MAAd) {}
+
+        // MARK: Deprecated Callbacks
+
+        func didDisplay(_ ad: MAAd) { /* DO NOT USE - THIS IS RESERVED FOR FULLSCREEN ADS ONLY AND WILL BE REMOVED IN A FUTURE SDK RELEASE */ }
+        func didHide(_ ad: MAAd) { /* DO NOT USE - THIS IS RESERVED FOR FULLSCREEN ADS ONLY AND WILL BE REMOVED IN A FUTURE SDK RELEASE */ }
     
 }
 
