@@ -17,6 +17,29 @@
 		B402792A28506B38000FF140 /* testMaxSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B402792928506B38000FF140 /* testMaxSDKTests.swift */; };
 		B402793428506B38000FF140 /* testMaxSDKUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B402793328506B38000FF140 /* testMaxSDKUITests.swift */; };
 		B402793628506B38000FF140 /* testMaxSDKUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B402793528506B38000FF140 /* testMaxSDKUITestsLaunchTests.swift */; };
+		B402794A2851D19B000FF140 /* AppLovinSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B40279492851D19B000FF140 /* AppLovinSDKResources.bundle */; };
+		B40279722851D402000FF140 /* libz.1.2.8.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B402796C2851D402000FF140 /* libz.1.2.8.tbd */; };
+		B40279732851D402000FF140 /* libz.1.2.11.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B402796D2851D402000FF140 /* libz.1.2.11.tbd */; };
+		B40279742851D402000FF140 /* libz.1.1.3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B402796E2851D402000FF140 /* libz.1.1.3.tbd */; };
+		B40279752851D402000FF140 /* libz.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B402796F2851D402000FF140 /* libz.1.tbd */; };
+		B40279762851D402000FF140 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B40279702851D402000FF140 /* libz.tbd */; };
+		B40279772851D402000FF140 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B40279712851D402000FF140 /* libz.1.2.5.tbd */; };
+		B40279782851D4A7000FF140 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B402794C2851D34B000FF140 /* AdSupport.framework */; };
+		B402797B2851D4A8000FF140 /* AppLovinSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B40279472851D177000FF140 /* AppLovinSDK.xcframework */; };
+		B402797D2851D4AA000FF140 /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B402794E2851D354000FF140 /* AppTrackingTransparency.framework */; };
+		B402797F2851D4AE000FF140 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B40279502851D35D000FF140 /* AudioToolbox.framework */; };
+		B40279812851D4AF000FF140 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B40279522851D364000FF140 /* AVFoundation.framework */; };
+		B40279832851D4B0000FF140 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B40279542851D36E000FF140 /* CoreGraphics.framework */; };
+		B40279852851D4B2000FF140 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B40279562851D375000FF140 /* CoreMedia.framework */; };
+		B40279872851D4B3000FF140 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B40279582851D37C000FF140 /* CoreMotion.framework */; };
+		B40279892851D4B5000FF140 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B402795A2851D383000FF140 /* CoreTelephony.framework */; };
+		B402798B2851D4B8000FF140 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B402795C2851D38C000FF140 /* Foundation.framework */; };
+		B402798D2851D4B9000FF140 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B402795E2851D394000FF140 /* MessageUI.framework */; };
+		B402798F2851D4BB000FF140 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B40279602851D3BD000FF140 /* SafariServices.framework */; };
+		B40279912851D4BC000FF140 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B40279622851D3D0000FF140 /* StoreKit.framework */; };
+		B40279952851D4BE000FF140 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B40279662851D3D7000FF140 /* SystemConfiguration.framework */; };
+		B40279972851D4C1000FF140 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B40279682851D3DD000FF140 /* UIKit.framework */; };
+		B40279992851D4C3000FF140 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B402796A2851D3E3000FF140 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +74,30 @@
 		B402792F28506B38000FF140 /* testMaxSDKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testMaxSDKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B402793328506B38000FF140 /* testMaxSDKUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testMaxSDKUITests.swift; sourceTree = "<group>"; };
 		B402793528506B38000FF140 /* testMaxSDKUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testMaxSDKUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B40279472851D177000FF140 /* AppLovinSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AppLovinSDK.xcframework; sourceTree = "<group>"; };
+		B40279492851D19B000FF140 /* AppLovinSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AppLovinSDKResources.bundle; sourceTree = "<group>"; };
+		B402794C2851D34B000FF140 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		B402794E2851D354000FF140 /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = SDKROOT; };
+		B40279502851D35D000FF140 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B40279522851D364000FF140 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B40279542851D36E000FF140 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B40279562851D375000FF140 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		B40279582851D37C000FF140 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		B402795A2851D383000FF140 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		B402795C2851D38C000FF140 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B402795E2851D394000FF140 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		B40279602851D3BD000FF140 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		B40279622851D3D0000FF140 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		B40279632851D3D0000FF140 /* StoreKitTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKitTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/StoreKitTest.framework; sourceTree = DEVELOPER_DIR; };
+		B40279662851D3D7000FF140 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B40279682851D3DD000FF140 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B402796A2851D3E3000FF140 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		B402796C2851D402000FF140 /* libz.1.2.8.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.8.tbd; path = usr/lib/libz.1.2.8.tbd; sourceTree = SDKROOT; };
+		B402796D2851D402000FF140 /* libz.1.2.11.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.11.tbd; path = usr/lib/libz.1.2.11.tbd; sourceTree = SDKROOT; };
+		B402796E2851D402000FF140 /* libz.1.1.3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.1.3.tbd; path = usr/lib/libz.1.1.3.tbd; sourceTree = SDKROOT; };
+		B402796F2851D402000FF140 /* libz.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.tbd; path = usr/lib/libz.1.tbd; sourceTree = SDKROOT; };
+		B40279702851D402000FF140 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		B40279712851D402000FF140 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +105,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B40279722851D402000FF140 /* libz.1.2.8.tbd in Frameworks */,
+				B40279732851D402000FF140 /* libz.1.2.11.tbd in Frameworks */,
+				B40279742851D402000FF140 /* libz.1.1.3.tbd in Frameworks */,
+				B40279852851D4B2000FF140 /* CoreMedia.framework in Frameworks */,
+				B40279752851D402000FF140 /* libz.1.tbd in Frameworks */,
+				B40279972851D4C1000FF140 /* UIKit.framework in Frameworks */,
+				B40279762851D402000FF140 /* libz.tbd in Frameworks */,
+				B402798B2851D4B8000FF140 /* Foundation.framework in Frameworks */,
+				B40279872851D4B3000FF140 /* CoreMotion.framework in Frameworks */,
+				B40279772851D402000FF140 /* libz.1.2.5.tbd in Frameworks */,
+				B40279952851D4BE000FF140 /* SystemConfiguration.framework in Frameworks */,
+				B40279892851D4B5000FF140 /* CoreTelephony.framework in Frameworks */,
+				B40279782851D4A7000FF140 /* AdSupport.framework in Frameworks */,
+				B40279992851D4C3000FF140 /* WebKit.framework in Frameworks */,
+				B40279912851D4BC000FF140 /* StoreKit.framework in Frameworks */,
+				B40279812851D4AF000FF140 /* AVFoundation.framework in Frameworks */,
+				B402797F2851D4AE000FF140 /* AudioToolbox.framework in Frameworks */,
+				B40279832851D4B0000FF140 /* CoreGraphics.framework in Frameworks */,
+				B402798D2851D4B9000FF140 /* MessageUI.framework in Frameworks */,
+				B402797B2851D4A8000FF140 /* AppLovinSDK.xcframework in Frameworks */,
+				B402797D2851D4AA000FF140 /* AppTrackingTransparency.framework in Frameworks */,
+				B402798F2851D4BB000FF140 /* SafariServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +150,13 @@
 		B402790328506B38000FF140 = {
 			isa = PBXGroup;
 			children = (
+				B40279492851D19B000FF140 /* AppLovinSDKResources.bundle */,
+				B40279472851D177000FF140 /* AppLovinSDK.xcframework */,
 				B402790E28506B38000FF140 /* testMaxSDK */,
 				B402792828506B38000FF140 /* testMaxSDKTests */,
 				B402793228506B38000FF140 /* testMaxSDKUITests */,
 				B402790D28506B38000FF140 /* Products */,
+				B402794B2851D34B000FF140 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +200,35 @@
 				B402793528506B38000FF140 /* testMaxSDKUITestsLaunchTests.swift */,
 			);
 			path = testMaxSDKUITests;
+			sourceTree = "<group>";
+		};
+		B402794B2851D34B000FF140 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B402796E2851D402000FF140 /* libz.1.1.3.tbd */,
+				B40279712851D402000FF140 /* libz.1.2.5.tbd */,
+				B402796C2851D402000FF140 /* libz.1.2.8.tbd */,
+				B402796D2851D402000FF140 /* libz.1.2.11.tbd */,
+				B402796F2851D402000FF140 /* libz.1.tbd */,
+				B40279702851D402000FF140 /* libz.tbd */,
+				B402796A2851D3E3000FF140 /* WebKit.framework */,
+				B40279682851D3DD000FF140 /* UIKit.framework */,
+				B40279662851D3D7000FF140 /* SystemConfiguration.framework */,
+				B40279622851D3D0000FF140 /* StoreKit.framework */,
+				B40279632851D3D0000FF140 /* StoreKitTest.framework */,
+				B40279602851D3BD000FF140 /* SafariServices.framework */,
+				B402795E2851D394000FF140 /* MessageUI.framework */,
+				B402795C2851D38C000FF140 /* Foundation.framework */,
+				B402795A2851D383000FF140 /* CoreTelephony.framework */,
+				B40279582851D37C000FF140 /* CoreMotion.framework */,
+				B40279562851D375000FF140 /* CoreMedia.framework */,
+				B40279542851D36E000FF140 /* CoreGraphics.framework */,
+				B40279522851D364000FF140 /* AVFoundation.framework */,
+				B40279502851D35D000FF140 /* AudioToolbox.framework */,
+				B402794E2851D354000FF140 /* AppTrackingTransparency.framework */,
+				B402794C2851D34B000FF140 /* AdSupport.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +338,7 @@
 				B402791F28506B38000FF140 /* LaunchScreen.storyboard in Resources */,
 				B402791C28506B38000FF140 /* Assets.xcassets in Resources */,
 				B402791728506B38000FF140 /* Main.storyboard in Resources */,
+				B402794A2851D19B000FF140 /* AppLovinSDKResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +546,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TPPHJL7HG3;
+				GCC_INPUT_FILETYPE = automatic;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = testMaxSDK/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -456,6 +559,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.puyue.testMaxSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -472,6 +576,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TPPHJL7HG3;
+				GCC_INPUT_FILETYPE = automatic;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = testMaxSDK/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -484,6 +589,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.puyue.testMaxSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
